@@ -1,0 +1,24 @@
+num_1 = float(input("Enter the first number: "))
+op = input("Enter the operator(+, -, *, /, //, %): ")
+num_2 = float(input("Enter the second number: "))
+if op == "+":
+  print(num_1 + num_2)
+elif op == "-":
+  print(num_1 - num_2)
+elif op == "*":
+  print(num_1 * num_2)
+elif op == "/":
+  print(num_1 + num_2)
+elif op == "//":
+  print(num_1 // num_2)
+elif op == "%":
+  print(num_1 % num_2)
+else:
+  print("Invalid operator")
+   
+   output 
+   
+   Enter the first number: 1
+Enter the operator(+, -, *, /, //, %): +
+Enter the second number: 5
+6.0
